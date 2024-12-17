@@ -1,0 +1,17 @@
+{
+  "quartos": [
+      {"id":1, "situacao": "Disponivel", "numero": 71, "idTipoDeQuarto": 1},
+      {"id":2, "situacao": "Requer manutenção", "numero": 22, "idTipoDeQuarto": 2},
+      {"id":3, "situacao": "Em manutenção", "numero": 139, "idTipoDeQuarto": 3}
+   ],
+  "tipoDeQuartos": [
+      {"id":1, "tipo":"Quarto Romântico", "quantidadeTotal": 5, "preco": 79.50, "quantidadeCamas": 12, "quantidadeAdultos": 2, "quantidadeCriancas": 1},
+      {"id":2, "tipo":"Quarto dos Pirralhos", "quantidadeTotal": 3, "preco": 19.50, "quantidadeCamas": 16, "quantidadeAdultos": 3, "quantidadeCriancas": 1},
+      {"id":3, "tipo":"Quarto Família", "quantidadeTotal": 12, "preco": 45.50, "quantidadeCamas": 1, "quantidadeAdultos": 2, "quantidadeCriancas": 2}
+    ],
+  "tipoDoQuarto": [
+      {"id":1, "idTipoDeQuarto": 1, "idQuarto":1 },
+      {"id":2, "idTipoDeQuarto": 2, "idQuarto":2 },
+      {"id":3, "idTipoDeQuarto": 3, "idQuarto":3 }
+    ]
+}
